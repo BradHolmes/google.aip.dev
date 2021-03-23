@@ -2,6 +2,20 @@
 
 **TL;DR:** AIPs are lots of documents on how Google does APIs.
 
+## NCBI Extension
+
+NCBI is adopting AIPs for guide API design at NCBI.  You can modify this repo
+with pull requests.  Be sure to review all related, existing AIPs, and create 
+new ones in the 9000 block of `aip/ncbi`.
+
+### Running a local web server
+
+```
+bash serve_without_docker.sh
+```
+
+Review NCBI AIPs at a URL like http://iebdev22.be-md.ncbi.nlm.nih.gov:4000/ncbi
+
 ## Overview
 
 AIP stands for **API Improvement Proposal**, which is a design document
