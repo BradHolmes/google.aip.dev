@@ -4,6 +4,8 @@ buttons:
     href: /general
   - text: Learn how it works
     href: /1
+  - text: Learn how NCBI is using AIPs
+    href: /9000
 shortcuts:
   - title: Curious about the basics?
     description: |
@@ -21,18 +23,17 @@ shortcuts:
     button:
       href: /contributing
       text: Contribute to the project
-  - title: Want to use AIPs for your organization?
+  - title: How are AIPs adopted at NCBI?
     description: |
-      AIPs are designed to be useful outside of Google. Take a look at how you
-      might choose which AIPs are best suited to your API design needs.
+      AIPs are the design and guidance for APIs at NCBI, and NCBI specific guidance
+      and overrides are documented in the 9000 block.  Take a look at the first one.
     button:
-      href: /adopting
-      text: Learn more
+      href: /9000
+      text: Read AIP-9000
   - title: Still have questions?
     description: |
       Free free to take a look at the <a href="/faq">frequently asked
-      questions</a>. If you don't find an answer there, file an issue on our
-      GitHub repository.
+      questions</a>. If you don't find an answer there, ask in #wg-api-standards.
     button:
-      href: https://github.com/aip-dev/google.aip.dev/issues
-      text: Ask us on GitHub
+      href: https://ncbi.slack.com/archives/C016Y9PTTT8
+      text: Ask us in Slack
